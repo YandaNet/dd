@@ -12,7 +12,7 @@ void multi(int start = 1, int end = 10) {
     }
 
     for (int i = start; i <= end; i++) {
-        cout << "Таблиця для " << i << ":\n";
+        cout << "Таблиця для " << i << endl;
         for (int j = 1; j <= 10; j++) {
             cout << i << " * " << j << " = " << i * j << endl;
         }
